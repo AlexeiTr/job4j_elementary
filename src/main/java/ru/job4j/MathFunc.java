@@ -10,5 +10,6 @@ public class MathFunc {
 
         int result3 = MathFunc.func1();
         System.out.println(result3);
+
     }
 }
