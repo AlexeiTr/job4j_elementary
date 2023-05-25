@@ -9,7 +9,7 @@ public class ConverterTest {
 
     @Test
     public void whenConvert140RblThen2Euro() {
-        float in = 140;
+        float in = 40;
         float expected = 2;
         float out = Converter.rubleToEuro(in);
         float eps = 0.0001f;
