@@ -9,7 +9,7 @@ public class X2Test {
 
     @Test
     public void whenA10B0C0X2Then40() {
-        int a = 10;
+        int a = 1;
         int b = 0;
         int c = 0;
         int x = 2;
