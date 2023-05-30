@@ -9,7 +9,7 @@ public class PointTest {
 
     @Test
     public void when00to20then2() {
-        double expected = 4;
+        double expected = 2;
         int x1 = 0;
         int y1 = 0;
         int x2 = 2;
