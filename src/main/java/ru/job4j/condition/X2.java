@@ -7,7 +7,7 @@ public class X2 {
 
     public static void main(String[] args) {
         int a = 10;
-        int b = 02;
+        int b = 0;
         int c = 0;
         int x = 2;
         int rsl = X2.calc(a, b, c, x);
