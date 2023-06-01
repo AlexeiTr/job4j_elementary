@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MaxTet {
+class MaxTest {
 
     @Test
     public void whenMax1To2Then2() {
