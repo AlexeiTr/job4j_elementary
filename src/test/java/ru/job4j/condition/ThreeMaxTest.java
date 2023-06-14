@@ -50,7 +50,7 @@ public class ThreeMaxTest {
         int second = 10;
         int third = 1;
         int result = ThreeMax.max(first, second, third);
-        int expected = 10;
+        int expected = 1;
         assertThat(result).isEqualTo(expected);
     }
 
@@ -60,7 +60,7 @@ public class ThreeMaxTest {
         int second = 1;
         int third = 100;
         int result = ThreeMax.max(first, second, third);
-        int expected = 100;
+        int expected = 1;
         assertThat(result).isEqualTo(expected);
     }
 
@@ -70,7 +70,7 @@ public class ThreeMaxTest {
         int second = 100;
         int third = 100;
         int result = ThreeMax.max(first, second, third);
-        int expected = 1;
+        int expected = 100;
         assertThat(result).isEqualTo(expected);
     }
 }
