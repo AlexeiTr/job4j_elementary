@@ -6,7 +6,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class FitnessTest {
     @Test
     public void whenIvanGreatNik() {
-        int ivan = 95;
+        int ivan = 95
         int nik = 90;
         int result = Fitness.calc(ivan, nik);
         int expected = 0;
