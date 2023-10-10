@@ -16,7 +16,7 @@ class TurnTest {
     void whenTurnArrayWithEvenAmountOfElementsThenTurnedArray() {
         int[] input = new int[]{4, 1, 6, 2};
         int[] result = Turn.back(input);
-        int[] expected = new int[]{2, 6, 1, 4};
+        int[] expected = new int[]{2, 6, 1, 5};
         assertThat(result).containsExactly(expected);
     }
 }
