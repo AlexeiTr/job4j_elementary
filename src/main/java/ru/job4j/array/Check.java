@@ -7,7 +7,7 @@ public class Check {
                 return false;
             }
         }
-        return tru;
+        return true;
     }
 }
 
