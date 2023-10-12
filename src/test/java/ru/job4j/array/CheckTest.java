@@ -8,7 +8,7 @@ class CheckTest {
     void whenDataMonoByTrueThenTrue() {
         boolean[] data = new boolean[] {true, true, true};
         boolean result = Check.mono(data);
-        assertThat(result).isTrue(;
+        assertThat(result).isTrue();
     }
 
     @Test
