@@ -13,4 +13,4 @@ public class DoWhileExample {
         } while (password != 555);                   // C начала выполняется код
         System.out.println("Пароль введён успешно!");
     }
-}
+
