@@ -10,7 +10,7 @@ public class EndsWithTest {
         char[] post = {'l', 'o'};
         boolean result = EndsWith.endsWith(word, post);
         assertThat(result).isTrue();
-    }
+
 
     @Test
     public void whenNotEndWithPrefixThenFalse() {
