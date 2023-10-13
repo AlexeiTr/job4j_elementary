@@ -13,4 +13,4 @@ public class DoWhileExample {
         } while (password != 555);
         System.out.println("Пароль введён успешно!");
     }
-}
+
