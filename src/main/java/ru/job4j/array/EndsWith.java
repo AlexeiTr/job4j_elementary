@@ -9,6 +9,5 @@ public class EndsWith {
                 break;
             }
         }
-        return result;
-    }
+        return result;}
 
