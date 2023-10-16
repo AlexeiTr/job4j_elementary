@@ -34,3 +34,4 @@ public class MinDiapasonTest {
         int expected = 2;
         assertThat(result).isEqualTo(expected);
     }
+}
