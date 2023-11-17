@@ -26,7 +26,6 @@ public class MatrixTest {
                 {4, 8, 12, 16, 20},
                 {5, 10, 15, 20, 25}
         };
-
         assertThat(result).isDeepEqualTo(expected);
     }
 }
