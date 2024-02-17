@@ -9,7 +9,7 @@ class SimpleStringEncoderTest {
 
     @Test
     void whenOnlyOne() {
-        String input = ;
+        String input = "a";
         String expected = "a";
         String result = SimpleStringEncoder.encode(input);
         assertThat(result).isEqualTo(expected);
