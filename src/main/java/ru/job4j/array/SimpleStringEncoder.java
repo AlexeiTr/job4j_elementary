@@ -18,7 +18,7 @@ public class SimpleStringEncoder {
 
             }
         }
-        return result = counter == 1 ? result + symbol : result + symbol + counter;
+        return  counter == 1 ? result + symbol : result + symbol + counter;
     }
 
 }
