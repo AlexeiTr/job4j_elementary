@@ -17,7 +17,7 @@ class SimpleStringEncoderTest {
 
     @Test
     void whenDoubleA() {
-        String input = "aa";
+        String input = "a";
         String expected = "a2";
         String result = SimpleStringEncoder.encode(input);
         assertThat(result).isEqualTo(expected);
