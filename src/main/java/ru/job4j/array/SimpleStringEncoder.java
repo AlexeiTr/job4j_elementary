@@ -6,23 +6,19 @@ public class SimpleStringEncoder {
         char symbol = input.charAt(0);
         int counter = 1;
 
-        for (int i = 1; i < input.length() - 1; i++) {
-            if (input.charAt(i) == symbol) {
+        for (int i = 1; i < input.length(); i++) {
+            if (symbol == input.charAt(i)) {
                 counter++;
 
             } else {
-                if  (counter == 1) {
-                    result += symbol;
-                    symbol = input.charAt(i);
-                    counter = 1;
-                }
-                result = result + symbol + counter;
+
+                result = counter == 1 ? result + Character.toString(symbol) : result + Character.toString(symbol) + counter;
                 symbol = input.charAt(i);
                 counter = 1;
 
             }
         }
-        return result + symbol + counter;
+        return result = counter == 1 ? result + symbol : result + symbol + counter;
     }
 
 }
